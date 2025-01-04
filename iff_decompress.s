@@ -1,4 +1,5 @@
-; decompress an IFF-file (DPaint4) with 4 bitplanes (16 colors)
+; decoding an IFF-file (DPaint4) with 4 bitplanes (16 colors)
+; and display with custom copperlist
 start:	
     lea	$dff000,a5
 
