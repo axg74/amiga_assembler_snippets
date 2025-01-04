@@ -1,5 +1,5 @@
 # amiga_assembler_snippets
-a little bit of amiga assembly language code.
+a little bit of Motorola MC68000 assembly language code for the Commodore Amiga homecomputer series.
 
 ## iff_decompress.s
 DPaint4 picture file decoding and displaying with custom copperlist.
