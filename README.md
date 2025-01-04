@@ -1,2 +1,2 @@
 # amiga_assembler_snippets
-some amiga assembly language code
+a little bit of amiga assembly language code
