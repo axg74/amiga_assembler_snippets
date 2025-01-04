@@ -18,10 +18,10 @@ set_sprite_position:
 	bset	#2,3(a0)				; set e8
 .no_e8:
 	lsr.w	#1,d0					; bits H8-H1
-	move.b	d0,1(a0)				; first controll-word horizontal position
+	move.b	d0,1(a0)				; first control-word horizontal position
 	add.w	d2,d1
 	addq.w	#1,d1
-	move.b	d1,2(a0)				; second controll-word vertical end-position
+	move.b	d1,2(a0)				; second control-word vertical end-position
 	btst	#8,d1
 	beq.s	.no_l8
 	bset	#1,3(a0)				; set l8
