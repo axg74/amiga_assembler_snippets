@@ -5,8 +5,8 @@
 ; d1 = y-pos.
 ; d2 = sprite-height
 set_sprite_position:
-	add.w	#$91,d0                 ; <== to modified with your values (display window start)
-	add.w	#$29,d1                 ; <== to modified with your values (display window start)
+	add.w	#$91,d0                 ; <== to be modified with your values (display window start)
+	add.w	#$29,d1                 ; <== to be modified with your values (display window start)
 	clr.l	0(a0)					; clear sprite controll words
 	move.b	d1,0(a0)				; vertical start position of the sprite
 	btst	#0,d0
